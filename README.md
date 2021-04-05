@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="400" height="350" src="https://github.com/arthur960304/frozen-lake/blob/main/images/frozen-lake.png">
+  <img width="490" height="326" src="https://github.com/arthur960304/find-phone/blob/main/images/97.jpg">
 </p>
 
 The goal of this visual object detection system is to find a location of a phone dropped on the floor from a single RGB camera image.
@@ -50,8 +50,8 @@ python train_phone_finder.py imgs/51.jpg
 ## Results
 
 <p align="center">
-  <img width="500" height="300" src="https://github.com/arthur960304/frozen-lake/blob/main/images/VI.png"><br/>
-  <em>Average success rate of value iteration algorithm over 50 episodes.</em>
+  <img width="450" height="300" src="https://github.com/arthur960304/find-phone/blob/main/result.png"><br/>
+  <em>Predicted bounding box of the phone.</em>
 </p>
 
 ## Authors
