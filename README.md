@@ -27,6 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 .
 ├── train_phone_finder.py   # Train the phone detector
 ├── find_phone.py           # Predict the phone location
+├── description.pdf         # File providing implementation details
 ├── images                  # Training data
 └── README.md
 ```
