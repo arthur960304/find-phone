@@ -27,7 +27,7 @@ class Net(nn.Module):
         self.pool1 = nn.MaxPool2d(2, 2)
         self.conv2 = nn.Conv2d(in_channels=8, out_channels=4, kernel_size=3)
         self.pool2 = nn.MaxPool2d(2, 2)
-        self.fc1 = nn.Linear(324, 128)
+        self.fc1 = nn.Linear(4 * 9 * 9, 128)
         self.fc2 = nn.Linear(128, 1)
 
     def forward(self, x):
